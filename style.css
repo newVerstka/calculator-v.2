@@ -1,4 +1,4 @@
-.container{
+.container {
       width: 100%;
       margin: 0 auto;
       height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 /* ------------------------------------- */
-.display{
+.display {
       text-align: right;
       overflow: hidden;
       background: linear-gradient(99.37deg, rgba(255, 255, 255, 0.1276) 4.26%, rgba(255, 255, 255, 0.044) 37.4%, rgba(255, 255, 255, 0) 38.29%), #252525;
@@ -25,7 +25,7 @@
       border: none;
 }
 
-.calc{
+.calc {
       width: 269px;
       height: 390px;
       background: radial-gradient(186.24% 135.14% at 48.06% -35.14%, #F1F1ED 25.44%, #D6DDE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
@@ -33,7 +33,7 @@
       border-radius: 34px;
 }
 
-.btn{
+.btn {
       width: 50px;
       height: 50px;
       background: radial-gradient(109% 109% at 40% 100%, #EFEFEF 0%, #B7C7C8 100%);
@@ -47,24 +47,29 @@
       color: #000;
 }
 
-.btn img{
+.btn img {
       position: relative;
       top: 2px;
 }
 
-.btn:active{
+.btn:active {
       background: radial-gradient(109% 109% at 40% 100%, #D7EAEB 0%, #95AFB0 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
       box-shadow: 0px 0px 0px 1px #3F3F3F, inset 2px 4px 4px #CDCDCD;
 }
 
-.calc__btn{
+.calc__btn {
       display: grid;
       grid-template-columns: repeat(4, 50px);
       gap: 10px;
       justify-content: center;
 }
-.span-2{
+.spanZero {
       position: relative;
       left: -60px;
+      width: 110px;
+}
+.spanClear {
+      position: relative;
+      left: 0;
       width: 110px;
 }
